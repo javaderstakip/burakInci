@@ -11,7 +11,10 @@ import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
     static WebDriver driver;
+    //WebDriver driver = new ChromeDriver();
     static Properties properties;
+    //Properties properties = ConfigReader.getProperties();
+
     public static WebDriver initialize_Driver(String browser){
         properties = ConfigReader.getProperties();
         if (browser.equals("Chrome")){

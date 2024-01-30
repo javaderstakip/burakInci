@@ -2,7 +2,7 @@
 <!--<suite name="Suite1" verbose="1" >-->
 <!--    <test name="Nopackage" >-->
 <!--        <classes>-->
-<!--            <class name="TestNG" />-->
+<!--            <class name="in_available.TestNG" />-->
 <!--        </classes>-->
 <!--    </test>-->
 <!--</suite>-->
@@ -11,7 +11,7 @@
 <!--<suite name="Suite1" verbose="1" >-->
 <!--    <test name="Kac numarali test include and exclude" >-->
 <!--        <classes>-->
-<!--            <class name="TestNG">-->
+<!--            <class name="in_available.TestNG">-->
 <!--                <methods>-->
 <!--                    <exclude name="test1" />-->
 <!--                </methods>-->
@@ -30,7 +30,7 @@
 <!--            </run>-->
 <!--        </groups>-->
 <!--        <classes>-->
-<!--            <class name="TestNG"/>-->
+<!--            <class name="in_available.TestNG"/>-->
 <!--        </classes>-->
 <!--    </test>-->
 <!--</suite>-->
@@ -39,7 +39,7 @@
 <!--<suite name="test suite">-->
 <!--    <test name="priority öncelik sırasına göre koşma">-->
 <!--        <classes>-->
-<!--            <class name="TestNG"/>-->
+<!--            <class name="in_available.TestNG"/>-->
 <!--        </classes>-->
 <!--    </test>-->
 <!--</suite>-->
@@ -48,7 +48,7 @@
 <suite name="test suite">
 <test name="Raporlamayı öğrenme">
     <classes>
-        <class name="TestNG"/>
+        <class name="in_available.TestNG"/>
     </classes>
 </test>
 </suite>

@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import util.DriverFactory;
 
 @CucumberOptions(
-        features = {"src/test/java/features"},
+        features = {"src/test/resources/features"},
         glue = {"stepDefinitions", "util"},
         tags = "",
         plugin = {"summary", "pretty", "html:Reports/CucumberReprt/Report.html"}

@@ -3,11 +3,11 @@
 <suite name="Failed suite [test suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="priority öncelik sırasına göre koşma(failed)">
     <classes>
-      <class name="TestNG">
+      <class name="in_available.TestNG">
         <methods>
           <include name="basariliMailTesti"/>
         </methods>
-      </class> <!-- TestNG -->
+      </class> <!-- in_available.TestNG -->
     </classes>
   </test> <!-- priority öncelik sırasına göre koşma(failed) -->
 </suite> <!-- Failed suite [test suite] -->
